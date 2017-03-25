@@ -35,7 +35,7 @@ if [ "$1" == "--force" -o "$1" == "-f" ]; then
 	doSync
 elif [[ $(dryRunSync) ]] ; then
 	echo "This may overwrite existing files in your home directory."
-	echo $(diffFiles)
+	echo $(dryRunSync)
 	echo
 	read -p "Are you sure? (y/n) " -n 1
 	echo
