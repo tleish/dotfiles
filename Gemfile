@@ -1,0 +1,11 @@
+source 'https://rubygems.org'
+
+gem 'rib'
+gem 'zeus'
+gem 'iStats'
+gem 'roodi'
+gem 'rubocop'
+gem 'flay'
+gem 'flog'
+gem 'pry'
+gem 'brakeman'
