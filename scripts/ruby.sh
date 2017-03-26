@@ -7,3 +7,8 @@ rvm use 2.2.4 --default
 
 # install gems
 gem install bundler
+
+# 
+gem install robocop
+gem install reek
+gem install
